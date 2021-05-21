@@ -89,3 +89,7 @@ nav ul li {
     color:var(--text-color);
   }
 }
+
+.end{
+  content: "\003B";
+}

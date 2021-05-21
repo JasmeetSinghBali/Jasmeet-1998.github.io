@@ -7,7 +7,7 @@ about.addEventListener('click',()=>{
   const aboutBox = new WinBox({
     title: 'About Me',
     width: '600px',
-    height: '850px',
+    height: '800px',
     // to lock the user so that they cannot resize or click in background
     //modal:true,
     top:50,
@@ -28,11 +28,11 @@ contact.addEventListener('click',()=>{
   const contactBox = new WinBox({
     title: 'Contact Me',
     width: '600px',
-    height: '850px',
-    top:50,
+    height: '600px',
+    top:150,
     right:50,
     bottom:50,
-    left:1200,
+    left:150,
     mount: contactContent,
     onfocus:function(){
       this.setBackground('#00aa00');
