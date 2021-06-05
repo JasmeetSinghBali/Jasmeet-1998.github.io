@@ -55,6 +55,7 @@ nav ul li {
   color:var(--text-color);
 }
 
+
 .container{
   max-width: 600px;
   margin: auto;
@@ -65,9 +66,31 @@ nav ul li {
   align-items: center;
 }
 
+@media only screen and (max-width:640px){
+  .container{
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
 .wb-body{
   background: #111;
   padding: 20px;
+  margin: 4px;
+  color: #fff;
+  background: #131820;
+}
+
+.winbox{
+  background: linear-gradient(90deg, #ff00ff, #0050ff);
+  border-radius: 12px 12px 0 0;
+  box-shadow: none;
 }
 
 .hidden{

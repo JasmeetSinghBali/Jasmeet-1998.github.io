@@ -9,7 +9,7 @@ about.addEventListener('click',()=>{
     width: '600px',
     height: '800px',
     // to lock the user so that they cannot resize or click in background
-    //modal:true,
+    modal:true,
     top:50,
     right:50,
     bottom:50,
@@ -26,6 +26,7 @@ about.addEventListener('click',()=>{
 
 contact.addEventListener('click',()=>{
   const contactBox = new WinBox({
+    modal:true,
     title: 'Contact Me',
     width: '600px',
     height: '600px',
